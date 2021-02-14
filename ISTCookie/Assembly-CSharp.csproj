@@ -57,6 +57,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\AchieveScript.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
+     <Compile Include="Assets\Scripts\ISTClick.cs" />
  <Reference Include="UnityEngine">
  <HintPath>D:/Unity/2019.4.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>

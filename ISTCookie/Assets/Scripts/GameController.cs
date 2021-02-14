@@ -8,6 +8,7 @@ public class GameController : MonoBehaviour
     [SerializeField] int allbalance;
     public Text balancetext;
     
+
     public void Start()
     {
         balance = PlayerPrefs.GetInt("balance");
@@ -25,6 +26,16 @@ public class GameController : MonoBehaviour
     public void ToAchievements()
     {
         SceneManager.LoadScene(1);
+    }
+
+    public void ToVK()
+    {
+        Application.OpenURL("https://vk.com/01ist");
+    }
+
+    public void ToShop()
+    {
+        SceneManager.LoadScene(2);
     }
 
     public void Update()
