@@ -4,23 +4,20 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
-    [SerializeField] int balance;
-    [SerializeField] int allbalance;
-    public Text balancetext;
+    [SerializeField] int balance, gold;
+    public Text balancetext, goldtext;
     
 
     public void Start()
     {
         balance = PlayerPrefs.GetInt("balance");
-        allbalance = PlayerPrefs.GetInt("allbalance");
+        gold = PlayerPrefs.GetInt("gold");
     }
 
     public void ButtonClick()
     {
         balance += 1;
-        allbalance += 1;
         PlayerPrefs.SetInt("balance", balance);
-        PlayerPrefs.SetInt("allbalance", allbalance);
     }
 
     public void ToAchievements()
@@ -41,5 +38,6 @@ public class GameController : MonoBehaviour
     public void Update()
     {
         balancetext.text = balance.ToString();
+        goldtext.text = gold.ToString();
     }
 }

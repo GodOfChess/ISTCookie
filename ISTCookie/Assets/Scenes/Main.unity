@@ -979,8 +979,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   balance: 0
-  allbalance: 0
+  gold: 0
   balancetext: {fileID: 2036422637}
+  goldtext: {fileID: 603003879}
 --- !u!4 &1944328610
 Transform:
   m_ObjectHideFlags: 0

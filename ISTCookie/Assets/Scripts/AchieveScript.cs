@@ -4,21 +4,19 @@ using UnityEngine.SceneManagement;
 
 public class AchieveScript : MonoBehaviour
 {
-    private int allbalance;
-    [SerializeField] Button SecondAch;
-    [SerializeField] bool isSecond;
+    [SerializeField] Button FirstAch;
+    [SerializeField] bool isFirst;
 
     public void Start()
     {
-        allbalance = PlayerPrefs.GetInt("allbalance");
-        isSecond = PlayerPrefs.GetInt("isSecond") == 1 ? true : false;
-        if (allbalance>=10 && !isSecond)
+        isFirst = PlayerPrefs.GetInt("isFirst") == 1 ? true : false;
+        if (!isFirst)
         {
-            SecondAch.interactable = true;
+            FirstAch.interactable = true;
         }
         else
         {
-            SecondAch.interactable = false;
+            FirstAch.interactable = false;
         }
     }
 
@@ -27,13 +25,16 @@ public class AchieveScript : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
-    public void SecondAchievement()
+    public void FirstAchievement()
     {
         int balance = PlayerPrefs.GetInt("balance");
+        int gold = PlayerPrefs.GetInt("gold");
         balance += 10;
+        gold += 5;
         PlayerPrefs.SetInt("balance", balance);
-        isSecond = true;
-        PlayerPrefs.SetInt("isSecond", isSecond ? 1 : 0);
-        SecondAch.interactable = false;
+        PlayerPrefs.SetInt("gold", gold);
+        isFirst = true;
+        PlayerPrefs.SetInt("isFirst", isFirst ? 1 : 0);
+        FirstAch.interactable = false;
     }
 }
