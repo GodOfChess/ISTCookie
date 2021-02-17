@@ -310,9 +310,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.5246096, y: 0.113918774, z: -2.1152344}
+    m_Target: {x: -0.23554331, y: 0.0002471842, z: -3.5341797}
     speed: 2
-    m_Value: {x: 0.5246096, y: 0.113918774, z: -2.1152344}
+    m_Value: {x: -0.23554331, y: 0.0002471842, z: -3.5341797}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -362,9 +362,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 3.9375584
+    m_Target: 5.2545652
     speed: 2
-    m_Value: 4.123098
+    m_Value: 5.2545652
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -417,7 +417,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 16264
+  m_LastSelectedObjectID: 23338
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -490,20 +490,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Sprites
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Sprites
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\GitHub\ISTCookie\ISTCookie
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ee390000
-    m_LastClickedID: 14830
-    m_ExpandedIDs: 00000000ee39000000ca9a3b
+    m_SelectedIDs: 943a0000
+    m_LastClickedID: 14996
+    m_ExpandedIDs: 000000008a3a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -654,23 +654,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 943a0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 12bfffff34d4fffff6d4ffff04d6ffffa8d6ffff7ad7ffffe2faffff64fbffff203a0000523a0000763f00003c430000
+      m_ExpandedIDs: 2c72ffffb876ffffb27bffffa09ffffff29fffffdca5ffff52a8ffff14b1ffff6eb6ffff66bafffffabaffff70c4ffff38c9ffff64fbffff34390000483900008a3900000c3a0000163a0000283a0000fe3d0000d03e0000e23e0000ee420000864a0000824d00009c520000c8580000b05a0000345b0000ea6700006c6e000054780000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Image
-        m_OriginalName: Image
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -16618
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -741,7 +741,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1

@@ -32,6 +32,11 @@ public class GameController : MonoBehaviour
 
     public void ToShop()
     {
+        SceneManager.LoadScene(3);
+    }
+
+    public void ToSettings()
+    {
         SceneManager.LoadScene(2);
     }
 
