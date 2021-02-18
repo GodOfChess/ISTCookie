@@ -7,7 +7,7 @@ public class ChangeBg : MonoBehaviour
     public List<Sprite> images = new List<Sprite>();
     public GameObject background;
     private Image im;
-    [SerializeField] private int count;
+    [SerializeField] private int count, changedbg;
 
     public void Start()
     {
@@ -25,6 +25,8 @@ public class ChangeBg : MonoBehaviour
         else
         {
             count += 1;
+            changedbg = 1;
+            PlayerPrefs.SetInt("changedbg", changedbg);
         }
         im.sprite = images[count];
         PlayerPrefs.SetInt("count", count);

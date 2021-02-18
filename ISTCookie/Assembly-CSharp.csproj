@@ -59,6 +59,7 @@
      <Compile Include="Assets\Scripts\ChangeBg.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\ISTClick.cs" />
+     <Compile Include="Assets\Scripts\MusicOnOff.cs" />
      <Compile Include="Assets\Scripts\SettingsScript.cs" />
  <Reference Include="UnityEngine">
  <HintPath>D:/Unity/2019.4.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
