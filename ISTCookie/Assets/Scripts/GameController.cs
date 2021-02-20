@@ -1,10 +1,11 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class GameController : MonoBehaviour
 {
-    [SerializeField] int balance, gold;
+    [SerializeField] int balance, gold, automoney;
     public Text balancetext, goldtext;
     
 
@@ -12,6 +13,8 @@ public class GameController : MonoBehaviour
     {
         balance = PlayerPrefs.GetInt("balance");
         gold = PlayerPrefs.GetInt("gold");
+        automoney = PlayerPrefs.GetInt("automoney");
+        StartCoroutine(AutoMoney());
     }
 
     public void ButtonClick()
@@ -44,5 +47,13 @@ public class GameController : MonoBehaviour
     {
         balancetext.text = balance.ToString();
         goldtext.text = gold.ToString();
+    }
+
+    private IEnumerator AutoMoney()
+    {
+        balance += automoney;
+        PlayerPrefs.SetInt("balance", balance);
+        yield return new WaitForSeconds(1f);
+        StartCoroutine(AutoMoney());
     }
 }

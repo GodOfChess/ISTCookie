@@ -303,7 +303,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 2.8818054, y: 11.79}
+  m_AnchoredPosition: {x: 2.8818054, y: 11.790001}
   m_SizeDelta: {x: -5.76355, y: -23.583994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &280269876
@@ -383,10 +383,10 @@ RectTransform:
   m_Father: {fileID: 1690810835}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -151}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchorMin: {x: 0.16666667, y: 0.0875}
+  m_AnchorMax: {x: 0.8291667, y: 0.16000001}
+  m_AnchoredPosition: {x: 0.5, y: -0.5}
+  m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &285239841
 MonoBehaviour:
@@ -2047,6 +2047,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2113008839}
+        m_MethodName: ThirdAchievement
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &859172008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2304,7 +2315,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 25.854004, y: -0.00002861023}
+  m_AnchoredPosition: {x: 30.700012, y: -0.000030517578}
   m_SizeDelta: {x: -41.34822, y: 0.00005340576}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &945755549
@@ -2339,7 +2350,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0423\u043B\u0443\u0447\u0448\u0438\u0442\u0435 \u0430\u0432\u0442\u043E-\u0437\u0430\u0440\u0430\u0431\u043E\u0442\u043E\u043A
+  m_Text: "\u0423\u043B\u0443\u0447\u0448\u0438\u0442\u0435 \u0430\u0432\u0442\u043E\u0437\u0430\u0440\u0430\u0431\u043E\u0442\u043E\u043A
     1000 \u0440\u0430\u0437"
 --- !u!222 &945755550
 CanvasRenderer:
@@ -2691,7 +2702,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 24.699997, y: 0}
+  m_AnchoredPosition: {x: 24.699982, y: 0}
   m_SizeDelta: {x: -35.09018, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1145103043
@@ -2847,7 +2858,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 26.800003, y: 0}
+  m_AnchoredPosition: {x: 26.800018, y: 0}
   m_SizeDelta: {x: -35.09018, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1281681750
@@ -3000,7 +3011,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 13.199982, y: 0}
+  m_AnchoredPosition: {x: 18.100006, y: 0}
   m_SizeDelta: {x: -35.09018, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1432217143
@@ -3509,10 +3520,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 240, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -3745,6 +3756,17 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1892771481}
         m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2113008839}
+        m_MethodName: FifthAchievement
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4011,13 +4033,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FirstAch: {fileID: 322901223}
   SecondAch: {fileID: 1639743967}
+  ThirdAch: {fileID: 859172007}
   FourthAch: {fileID: 356823291}
+  FifthAch: {fileID: 1892771477}
   SixthAch: {fileID: 299301500}
   isFirst: 0
   isSecond: 0
+  isThird: 0
   isFourth: 0
   changedbg: 0
+  isFifth: 0
   isSixth: 0
+  balance: 0
+  gold: 0
+  upgradecount: 0
 --- !u!114 &2113008840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4208,7 +4237,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -84.7, y: -13.9}
+  m_AnchoredPosition: {x: -84.1, y: -12.2}
   m_SizeDelta: {x: 32.30795, y: 21.47102}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2115437468
@@ -4232,7 +4261,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 5c8db16645148bf4d952fc12e02933e0, type: 3}
-    m_FontSize: 12
+    m_FontSize: 11
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
